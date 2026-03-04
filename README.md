@@ -31,6 +31,6 @@ Software and tools used in this workflow:
 9. Fitting of a model that applies to our phylogenetic tree-traits, choice of the model based on the AIC value
 10. Plotting the tree according to the model
 11. Prediction of missing traits with phyestimate
-11a. Phyestimate used in the prediction, using all the available 16s rRNA copies for each organism
-11b. Phyestimate used in the prediction, using only one copy of 16s rRNA for each organism
+-  Phyestimate used in the prediction, using all the available 16s rRNA copies for each organism
+- Phyestimate used in the prediction, using only one copy of 16s rRNA for each organism
 12. Correlation between predictive and effective trait
