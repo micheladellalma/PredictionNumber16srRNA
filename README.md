@@ -1,11 +1,23 @@
 # PredictionNumber16srRNA
-
-The aim is the prediction of the number of 16s rRNA genes based on available genomes, using comparative phylogenetics methods.
-The genomes belong to the bacteria in particular the class Alphaproteobacteria.
+The aim is the prediction of the number of 16s rRNA gene copies in bacterial genomes, using comparative phylogenetics methods.
+The analysis focuses on bacteria belonging to the class Alphaproteobacteria and uses available genomes to infer the number of 16S rRNA copies in new genomes.
 
 ## How to use
-Input required: table with two columns: accession numbers and organisms' names
-Output: Prediction of the number of 16S rRNA copies of new genomes
+
+**Input required**: 
+a table containing two columns:
+- accession numbers
+- organisms' names
+
+**Output**:
+Prediction of the number of 16S rRNA copies for new genomes
+
+## Requirements
+Software and tools used in this workflow:
+- R
+- MUSCLE (sequence alignment)
+- Barrnap (rRNA prediction)
+- Phylogenetic analysis packages in R
 
 ## Procedure
 1. Modification of the intial names, by putting together accessionnumber_organismname (useful for later visualization purposes)
@@ -22,5 +34,3 @@ Output: Prediction of the number of 16S rRNA copies of new genomes
 11a. Phyestimate used in the prediction, using all the available 16s rRNA copies for each organism
 11b. Phyestimate used in the prediction, using only one copy of 16s rRNA for each organism
 12. Correlation between predictive and effective trait
-13. Another approach to estimate the trait that axploits also the information of the specific model
-14. 
