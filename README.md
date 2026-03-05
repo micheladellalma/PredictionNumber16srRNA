@@ -22,7 +22,7 @@ Software and tools used in this workflow:
 - Barrnap (rRNA prediction)
 - Phylogenetic analysis packages in R
 
-## Procedure
+## :test_tube: Procedure
 1. Modification of the initial names, by putting together accessionnumber_organismname (useful for later visualization purposes)
 2. Creation of a file with the accession numbers to download the gff3 files.
 3. Usage of the tool barrnap that is able to extract for each genome the 16S rRNA sequences present, in particular as output of barrnap we have a fasta file for each genome containing the different copies of 16S rRNA for that genome
