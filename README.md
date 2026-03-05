@@ -1,5 +1,5 @@
 # PredictionNumber16srRNA
-The aim is the prediction of the number of 16s rRNA gene copies in bacterial genomes, using comparative phylogenetics methods.
+The aim is the prediction of the number of 16S rRNA gene copies in bacterial genomes, using comparative phylogenetics methods.
 The analysis focuses on bacteria belonging to the class Alphaproteobacteria and uses available genomes to infer the number of 16S rRNA copies in new genomes.
 
 ## Workflow overview
@@ -10,7 +10,7 @@ The analysis focuses on bacteria belonging to the class Alphaproteobacteria and 
 **Input required**: 
 a table containing two columns:
 - accession numbers
-- organisms' names
+- organism names
 
 **Output**:
 Prediction of the number of 16S rRNA copies for new genomes
@@ -23,7 +23,7 @@ Software and tools used in this workflow:
 - Phylogenetic analysis packages in R
 
 ## Procedure
-1. Modification of the intial names, by putting together accessionnumber_organismname (useful for later visualization purposes)
+1. Modification of the initial names, by putting together accessionnumber_organismname (useful for later visualization purposes)
 2. Creation of a file with the accession numbers to download the gff3 files.
 3. Usage of the tool barrnap that is able to extract for each genome the 16s rRNA sequences present, in particular as output of barrnap we have a fasta file for each genome containing the different copies of 16s rRNA for that genome
 4. Creation of a table containing for each accession number the correspondent fasta headers
