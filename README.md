@@ -5,7 +5,7 @@ The analysis focuses on bacteria belonging to the class Alphaproteobacteria and 
 ## :twisted_rightwards_arrows: Workflow overview
 <img width="453" height="665" alt="workflow_prediction_16srRNA drawio" src="https://github.com/user-attachments/assets/3c48e610-0ea9-4163-93c5-21251aeaf18d" />
 
-## How to use 🔧
+## :wrench: How to use 
 
 **Input required**: 
 a table containing two columns:
